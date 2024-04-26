@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    color:green;
+}
+.container {
+    background-color:gainsboro;
+    border-radius: 10px;
+    width: 50%;
+    margin: 0 auto;
+    color: green;
+}
+.container input{
+    width: 100%;
+    pointer-events: none;
+    background-color: gainsboro;
+    color: green;
+    border-color: green;
+    border-radius: 5px;
+}
+
+.buttonContainer {
+    width: 100%;
+   
+ }
+ .ac{
+     color: green;
+     border-color: green;
+ }
+.buttonContainer table{
+    width: 100%;
+    border-radius: 5px;
+}
+.buttonContainer table td{
+    background-color:seashell;
+    text-align: center;
+    border-color: silver;
+}
+.c{
+    color: red;
+    border-color: red;
+}
+
+

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 align="center">Calculator</h1>
+    <div class="container">
+
+        <div class="inputContainer">
+            <input type="text" id="input" placeholder="Calculate number">
+        </div>
+        <div class="buttonContainer">
+            <table border="1">
+              
+                <tr>
+                    <td onclick="addValue(1)">1</td>
+                    <td onclick="addValue(2)">2</td>
+                    <td onclick="addValue(3)">3</td>
+                    <td rowspan="3" class="c" onclick="result()"> =</td>
+                </tr>
+                <tr>
+                    <td onclick="addValue(4)">4</td>
+                    <td onclick="addValue(5)">5</td>
+                    <td onclick="addValue(6)">6</td>
+                </tr>
+                <tr>
+                    <td onclick="addValue(7)">7</td>
+                    <td onclick="addValue(8)">8</td>
+                    <td onclick="addValue(9)">9</td>
+
+                </tr>
+                <tr>
+                    <td onclick="addValue(0)">0</td>
+                    <td class="c" onclick="clearValue()">C</td>
+                    <td class="ac" onclick="clearAll()">AC</td>
+                    <td class="c" rowspan="2" onclick="addValue('/')">/</td>
+                </tr>
+                <tr class="c">
+                    <td onclick="addValue( '+' )">+</td>
+                    <td onclick="addValue('-')">-</td>
+                    <td onclick="addValue('*')">*</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>
